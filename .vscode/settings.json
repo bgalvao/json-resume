@@ -1,0 +1,13 @@
+{
+    "yaml.schemas": {
+        "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json": "file:///home/brnrdo/Coding/json-resume/resume.yaml"
+    },
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": "resume.yaml",
+                "cmd": "yq . resume.yaml > resume.json"
+            }
+        ]
+    }
+}
