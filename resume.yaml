@@ -1,0 +1,161 @@
+$schema: https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json
+
+basics:
+  name: Bernardo Galvão
+  label: ML Engineer
+  image: https://www.rd.com/wp-content/uploads/2021/03/GettyImages-140594401-1-scaled.jpg?resize=2048,1360
+  email: bernardo@kintsugi-mlops.com
+  url: https://bernardo-galvao.dev
+  summary: >
+    Jack-of-all-trades Data Scientist turned MLOps Engineer. My combined experience
+    in Data Science and Software Engineering is resulting in the perfect positioning
+    for this new area of expertise. Currently acquiring DevOps skills and counting.
+    Hire me if you need someone to operationalize the Machine Learning.
+  location:
+    city: Funchal
+    countryCode: PT
+    region: Madeira
+  profiles:
+    - network: GitHub
+      username: bgalvao
+      url: https://github.com/bgalvao
+    - network: LinkedIn
+      url: https://linkedin.com/in/bcgalvao
+      username: bcgalvao
+
+work:
+  - name: MRIcons Ltd.
+    location: Remote
+    description: Advanced Magnetic Resonance Imaging (MRI) software company
+    position: MLOps Engineer (Contractor)
+    url: https://mricons.eu
+    startDate: "2021-10-01"
+    summary: Operationalized training cycles and deployments of machine learning models.
+    highlights:
+      - Developed Docker Swarm stacks for deployment of MLOps services, including
+        a model registry (MLFlow); databases (Postgres and Redis); a reverse‐proxy
+        (Traefik) with an authentication service; a workflow orchestrator (Prefect);
+        Grafana and Prometheus.
+      - Designed an on‐prem MLOps solution to provide end‐to‐end services for frictionless
+        training, validation, deployment and monitoring of ML models based on Open‐Source
+        software, including a CI/CD component for ML.
+      - Designed a workflow template using DVC for Data Scientists to confidently
+        develop datasets and models with unit testing integrating a CI/CD pipeline
+        written in GitLab CI/CD specification.
+      - Developing a schema validation suite with Great Expectations to test data
+        integrity from a Data Warehouse.
+      - Wrote tests and GitLab CI pipelines for deployment of thoroughly tested models
+        on their data and performance. Wrote Gitlab CI pipelines for automated deployment
+        of Docker Stacks.
+      - Deployed a Kubernetes cluster including Istio Ingress Gateway and Seldon CRDs
+        for model deployment and monitoring.
+      - Optimized performance of data queries and transformations using optimized
+        memory formats Apache Arrow and DuckDB.
+  - name: Champalimaud Foundation [Computational Clinical Imaging Group]
+    location: Remote
+    description: Computational Imaging Research unit for Cancer Treatment
+    position: Research Fellow
+    url: https://fchampalimaud.org/research/groups/papanikolaou
+    startDate: "2020-01-01"
+    endDate: "2021-07-01"
+    # summary:
+    highlights:
+      - Deployed MLFlow server for experiment tracking and experiment data collection.
+      - Conducted research on performance feature selection methods applied to radiomics
+        for clinical decision‐making.
+      - Implemented Target Shuffling robustness check and Nested Cross‐Validation
+        procedure for use by other members in the team.
+  - name: Madeira Interactive Technologies Institute
+    location: Funchal, Madeira, Portugal
+    position: Data Scientist
+    startDate: "2018-06-01"
+    endDate: "2020-02-01"
+    highlights:
+      - Implemented an object detection viewer and trained a marine‐species object
+        detector via transfer learning.
+      - Automated dataset processing, model training and Tensorflow model format conversion
+        to TensorFlowJS and TensorFlow Lite using Docker, Python and Bash.
+      - Provided a user‐friendly CLI for pulling, configuring and training models
+        from TensorFlow’s Object Detection API.
+      - Implemented process for cooperative collection, annotation and augmentation
+        of training images.
+      - Analyzed social media data activity levels per location, including profiling
+        points of interest on Madeira island via topic modelling of TripAdvisor reviews
+        with Latent Drichlet Allocation.
+      - Performed data wrangling and analysis to assess performance of low‐cost air
+        quality sensors.
+  - name: Eyeware
+    url: https://eyeware.tech
+    location: Lisbon, Portugal
+    position: Software Engineering Intern
+    startDate: "2017-11-01"
+    endDate: "2018-02-01"
+    highlights:
+      - Developed a raycasting prototype in order to produce an attention heatmap
+        on a 3D object using NumPy and VTK in Python.
+
+publications:
+  - name: Prediction of Prostate Cancer Disease Aggressiveness Using Bi‐Parametric MRI Radiomics
+    url: https://pubmed.ncbi.nlm.nih.gov/34885175/
+    publisher: Cancers
+    releaseDate: "2021-12-01"
+  - name: A Parallel and Distributed Semantic Genetic Programming System
+    url: https://ieeexplore.ieee.org/document/7969304
+    publisher: 2017 IEEE Congress on Evolutionary Computation (CEC)
+    releaseDate: "2017-07-07"
+
+education:
+  - institution: Nova Information Management School  (IMS)
+    url: https://www.novaims.unl.pt/pt/ensino/cursos/pos-graduacoes-e-mestrados/mestrado-em-data-science-and-advanced-analytics/
+    area: Data Science and Advanced Analytics
+    studyType: MSc
+    startDate: "2015-09-01"
+    endDate: "2017-06-01"
+    score: 17/20
+    courses: []
+  - institution: Católica-Lisbon School of Business and Economics
+    url: https://www.clsbe.lisboa.ucp.pt/catolica-lisbon-school-business-economics
+    area: Economics
+    studyType: BSc
+    startDate: "2011-09-01"
+    endDate: "2014-12-15"
+    score: "14/20"
+    courses:
+      - Microeconomics
+      - Macroeconomics
+      - Econonometrics
+
+projects:
+  - name: nodevo
+    description: An implementation of Genetic Programming in Rust.
+    keywords:
+      - Rust
+      - Genetic Programming
+      - Evolutionary Computation
+      - AST
+      - Symbolic Regression
+    url: https://github.com/bgalvao/nodevo
+    type: code
+  - name: a-priori
+    description:
+      Extracting association rules from a market-basket dataset using the A-Priori
+      counting strategy.
+    keywords:
+      - Java
+      - Hadoop
+      - Big Data
+      - MapReduce
+    url: https://github.com/bgalvao/a-priori
+    type: code
+
+languages:
+  - language: Portuguese
+    fluency: Native
+  - language: English
+    fluency: Proficient
+
+meta:
+  canonical: https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json
+  version: v1.0.0
+  lastModified: "2017-12-24T15:53:00"
+  theme: flat
